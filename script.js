@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
  navLinks.forEach(link => {
      link.addEventListener ('click', function(e) {
          e.preventDefault();
-          const targetld = this.getAttribute('href');
+          const target id = this.getAttribute('href');
            const targetElement = document.querySelector(targetld); 
 
            targetElement.scrollIntoView({
