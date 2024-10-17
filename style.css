@@ -14,19 +14,18 @@ nav{
 }
 
 nav ul{
-    list-style-type: none
-    display; flex:
-    gap; 20px
-}
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+     }
 
 nav a{
     text-decoration: none;
     color: #00d9ff;
 }
 
-nav a: hover{
-    color: #0ee681;
-}
+nav a:hover{
+    color: #0ee681;}
 
 header{
     text-align: center;
@@ -84,11 +83,9 @@ section{
 }
 
 .skill-list{
-    list-style-type: string;
+    list-style-type: none;
     display: flex;
-    justify-content: space-around; 
-    align-items: flex-start;
-    text-align: center: 
+    justify-content: center; 
     gap: 20px;
 }
 
